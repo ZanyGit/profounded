@@ -5,11 +5,11 @@
 }
 
 .stripe {
-  height: 200px;
+  height: 1000px;
   width: 100%;
   background-color: red;
   background: url("smillaspringer.jpg") no-repeat;
-   background-size: auto;
+  background-size: cover;
 }
 .blue {
   height: 100%;
@@ -21,7 +21,14 @@
 }
 
 .profound{
-  color: black;
+  color: #f2f7ff;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.theclicker {
+  position: absolute;
+  top: 10%;
 }
