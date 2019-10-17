@@ -19,7 +19,7 @@
   align-items: center;
 }
 .profound{
-  color: #f2f7ff;
+   color: #f2f7ff; /* #f2f7ff */
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: bold;
@@ -30,6 +30,7 @@
   bottom: 10%;
 }
 .theclicker {
+  font-family: 'Montserrat', sans-serif;
   margin: 0 20px 0 20px;
   padding: 15px 30px;
   background-color: rgba(0,0,0,0);
@@ -42,8 +43,9 @@
 }
 .theclicker:hover {
   transform: scale(1.2);
-  background-color: white;
-  color: purple;
-  border-color: purple;
+  background-color: rgba(0,0,0,0);
+  color: #340042;
+  border-color: #340042;
   transition: all 0.3s ease-in-out;
+  font-weight: bold;
 }
